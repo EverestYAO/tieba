@@ -11,7 +11,7 @@ for item in cookie:
     print 'Name = ' +item.name
     print 'Value = '+item.value
 
-data={"email":"58153287@qq.com","password":"pegasus405"}
+data={"email":"","password":""}
 postdata=urllib.urlencode(data)
 loginurl='https://www.zhihu.com/#signin'
 request=opener.open(loginurl,postdata)
